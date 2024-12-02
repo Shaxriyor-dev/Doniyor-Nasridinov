@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.img-youtube{
+    height: 40px;
+}
+.div{
+    gap: 10px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.text{
+    font-size: 23px;
+    margin-top: 5px;
+    font-family: "Candal", sans-serif;
+}
+.search-logo{
+    max-width: 590px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.search{
+    height: 40px;
+    width: 490px;
+    outline: none;
+    font-size: 16px;
+    border: solid 1px #a19e9e;
+    padding: 0px 20px;
+    border-radius:30px 0px 0px 30px ;
+}
+#search-type{
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: solid 1px #a19e9e;
+    border-radius: 0px 30px 30px 0px;
+}
+.voice{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f3f3;
+    outline: #a19e9e;
+    border-radius: 50%;
+    border: solid 1px #f0ebeb;
+}
+.g{
+    height: 20px;
+}
+.hero-select{
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+}
+.icon-top{
+    height: 33px;
+}
+.Felex-box{
+    gap: 25px;
+    display: flex;
+    align-items: center;
+}
+.icon-to{
+    height: 38px;
+    border-radius: 50%;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+  .selection-vidios::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  .selection-vidios::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+
+.a{
+   height: 15px;
+  }
+  .hero-hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ll{
+    border-radius: 10px;
+  }
