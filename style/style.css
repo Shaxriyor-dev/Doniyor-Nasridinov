@@ -80,4 +80,74 @@ nav{
    display: none;
 }
 
+@media (max-width: 950px) {
+    .search{
+       width: 100%;
+    }
+    .h{
+        display: none;
+    }
+    .hero{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        gap: 10px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .voice{
+        display: none
+    }
+    .text{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .img-youtube{
+        height: 30px;
+    }
+    .hero-doll{
+        width: 45px;
+    }
+    .icon-tor{
+        display: none
+    }
+    .text-7{
+        display: none
+    }
+    .search{
+        height: 30px;
+        padding: 0px 10px;
+    }
+    .search-logo{
+        height: 30px;
+    }
+    #search-type{
+        height: 30px;
+    }
+    .son{
+        height: 15px;
+    }
+    .hero-doll{
+        display: none
+    }
+    .icon-1{
+        display: none
+    }
+    .vidio-you{
+        width: 100%;
+    }
+    .ll{
+          width: 100%;
+    }
+
+};
+
+
+
+
+
+
 
